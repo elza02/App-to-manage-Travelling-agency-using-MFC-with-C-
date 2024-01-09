@@ -1,5 +1,6 @@
 #pragma once
 #include "afxcmn.h"
+#include "afxwin.h"
 
 
 // Pays dialog
@@ -24,4 +25,7 @@ public:
 	CListCtrl m_list_pays;
 
 	void MAJList(CString sequel);
+	CString FetchData(CString sequel, CString champs);
+	afx_msg void OnLvnItemchangedList3(NMHDR *pNMHDR, LRESULT *pResult);
+	CStatic InfoText;
 };

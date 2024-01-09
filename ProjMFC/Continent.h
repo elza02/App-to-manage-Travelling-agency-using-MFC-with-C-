@@ -1,5 +1,6 @@
 #pragma once
 #include "afxcmn.h"
+#include "afxwin.h"
 
 
 // Continent dialog
@@ -23,4 +24,7 @@ protected:
 public:
 	CListCtrl m_list_continent;
 	void MAJList(CString sequel);
+	afx_msg void OnLvnItemchangedList3(NMHDR *pNMHDR, LRESULT *pResult);
+	CString FetchData(CString sequel, CString champs);
+	CStatic InfoText;
 };
