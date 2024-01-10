@@ -27,4 +27,14 @@ public:
 	afx_msg void OnLvnItemchangedList3(NMHDR *pNMHDR, LRESULT *pResult);
 	CString FetchData(CString sequel, CString champs);
 	CStatic InfoText;
+	CEdit CEDIT_Co;
+	CEdit CEDIT_SuppCo;
+	afx_msg void OnBnClickedButton3();
+	CButton btnAjouter;
+	afx_msg void OnBnClickedButton5();
+	void deleteVillage(CString& vl);
+	CString returnCodePays(CString& p);
+	void deleteVillageANDLang(CString& vl);
+	void DeletePaysANDRelated(CString& str);
+	CString returnCodeContinent(CString& p);
 };
