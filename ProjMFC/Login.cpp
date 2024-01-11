@@ -51,7 +51,6 @@ bool CLogin::Authentifier(){
 	//If the file isn't there, then create one :)
 	CDaoDatabase db;
 	CDaoRecordset recset(&db);
-	
 	db.Open(lpszFile);
 	//db.Create(lpszFile); //in case doesn't existe
 	//CString creation_table_Continent=L"CREATE TABLE CLIENTS(no_Client AUTOINCREMENT PRIMARY KEY, Nom VARCHAR(30), Prenom VARCHAR(30), Localite VARCHAR(30));";

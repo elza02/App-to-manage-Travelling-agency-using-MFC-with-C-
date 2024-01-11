@@ -125,8 +125,10 @@
     <None Include="res\ICON\icons8-language-96-_1_.ico" />
     <None Include="res\ICON\icons8-language-96.ico" />
     <None Include="res\ICON\icons8-leave-house-96.ico" />
+    <None Include="res\ICON\icons8-lock-96.ico" />
     <None Include="res\ICON\icons8-update-96.ico" />
     <None Include="res\ICON\icons8-village-96.ico" />
+    <None Include="res\IMAGE\icons8-lock-96.bmp" />
     <None Include="res\ProjMFC.ico" />
     <None Include="res\ProjMFC.rc2" />
   </ItemGroup>

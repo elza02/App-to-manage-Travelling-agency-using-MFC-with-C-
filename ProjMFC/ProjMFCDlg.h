@@ -51,4 +51,5 @@ public:
 	afx_msg void OnBnClickedPayss();
 	afx_msg void OnBnClickedCont();
 	void AfterLogin();
+	afx_msg void OnBnClickedBd2();
 };

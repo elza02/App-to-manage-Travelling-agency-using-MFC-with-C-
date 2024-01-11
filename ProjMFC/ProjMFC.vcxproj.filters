@@ -118,6 +118,12 @@
     <None Include="res\ICON\icons8-europe-96.ico">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="res\IMAGE\icons8-lock-96.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ICON\icons8-lock-96.ico">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ProjMFC.h">
