@@ -8,6 +8,7 @@
 #include "Village.h"
 #include "Continent.h"
 #include "Pays.h"
+#include "Login.h"
 
 // CProjMFCDlg dialog
 class CProjMFCDlg : public CDialogEx
@@ -40,6 +41,7 @@ public:
 	CButton m_about;
 	CButton m_home;
 	CButton m_exit;
+	CLogin* LoginDlg;
 	afx_msg void OnBnClickedAbout();
 	afx_msg void OnBnClickedExit();
 	void ClearLastOpenedDlg();
@@ -48,4 +50,5 @@ public:
 	afx_msg void OnBnClickedActivite();
 	afx_msg void OnBnClickedPayss();
 	afx_msg void OnBnClickedCont();
+	void AfterLogin();
 };

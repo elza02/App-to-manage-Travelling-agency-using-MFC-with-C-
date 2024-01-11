@@ -133,6 +133,7 @@
   <ItemGroup>
     <ClInclude Include="Activite.h" />
     <ClInclude Include="Continent.h" />
+    <ClInclude Include="Login.h" />
     <ClInclude Include="Pays.h" />
     <ClInclude Include="ProjMFC.h" />
     <ClInclude Include="ProjMFCDlg.h" />
@@ -144,6 +145,7 @@
   <ItemGroup>
     <ClCompile Include="Activite.cpp" />
     <ClCompile Include="Continent.cpp" />
+    <ClCompile Include="Login.cpp" />
     <ClCompile Include="Pays.cpp" />
     <ClCompile Include="ProjMFC.cpp" />
     <ClCompile Include="ProjMFCDlg.cpp" />
