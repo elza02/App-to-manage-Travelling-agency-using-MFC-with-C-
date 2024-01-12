@@ -119,6 +119,7 @@
     <None Include="res\ICON\icons8-database-96.ico" />
     <None Include="res\ICON\icons8-delete-96.ico" />
     <None Include="res\ICON\icons8-europe-96.ico" />
+    <None Include="res\ICON\icons8-exit-64.ico" />
     <None Include="res\ICON\icons8-holiday-100.ico" />
     <None Include="res\ICON\icons8-home-96.ico" />
     <None Include="res\ICON\icons8-info-96.ico" />
@@ -126,6 +127,7 @@
     <None Include="res\ICON\icons8-language-96.ico" />
     <None Include="res\ICON\icons8-leave-house-96.ico" />
     <None Include="res\ICON\icons8-lock-96.ico" />
+    <None Include="res\ICON\icons8-shutdown-96.ico" />
     <None Include="res\ICON\icons8-update-96.ico" />
     <None Include="res\ICON\icons8-village-96.ico" />
     <None Include="res\IMAGE\icons8-lock-96.bmp" />

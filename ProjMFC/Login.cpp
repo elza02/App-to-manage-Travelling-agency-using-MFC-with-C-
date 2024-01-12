@@ -81,3 +81,17 @@ void CLogin::OnBnClickedLogin()
 	// TODO: Add your control notification handler code here
 	Authentifier();
 }
+BOOL CLogin::PreTranslateMessage(MSG* pMsg)
+{
+    if (pMsg->message == WM_KEYDOWN)
+    {
+        if (pMsg->wParam == VK_RETURN)
+        {
+            // Simulate a button click
+            OnBnClickedLogin();
+            return TRUE; // Mark the message as handled
+        }
+    }
+
+    return CDialog::PreTranslateMessage(pMsg);
+}

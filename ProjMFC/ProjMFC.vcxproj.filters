@@ -124,6 +124,12 @@
     <None Include="res\ICON\icons8-lock-96.ico">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="res\ICON\icons8-exit-64.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ICON\icons8-shutdown-96.ico">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ProjMFC.h">
